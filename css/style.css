@@ -1,0 +1,26 @@
+@import url(bootstrap.css);
+
+section {
+    position: relative;
+    background: #fff;
+}
+.object-wrap {
+    position: relative;
+}
+.bg-decor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+.page {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
